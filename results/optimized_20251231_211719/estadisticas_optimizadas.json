@@ -1,0 +1,34 @@
+{
+  "statistics": {
+    "best": 247.5284014527306,
+    "worst": 263.99999999999994,
+    "mean": 257.8465286052425,
+    "std": 7.567776643919575,
+    "median": 263.9999999999999,
+    "best_run": 1.0,
+    "worst_run": 2.0
+  },
+  "all_fitness_values": [
+    247.5284014527306,
+    263.99999999999994,
+    263.9999999999999,
+    263.99999999999994,
+    249.70424157348194
+  ],
+  "configuration": {
+    "population_size": 200,
+    "generations": 1000,
+    "mutation_rate": 0.05,
+    "crossover_rate": 0.85,
+    "elitism_rate": 0.15,
+    "penalty_weight": 100.0,
+    "num_runs": 5
+  },
+  "timestamp": "20251231_211719",
+  "comparison": {
+    "previous_best": 251.51,
+    "new_best": 247.5284014527306,
+    "improvement_hours": 3.9815985472693853,
+    "improvement_percent": 1.5830776300224187
+  }
+}
