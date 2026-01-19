@@ -26,6 +26,8 @@ Este proyecto implementa un **Algoritmo Genético** para resolver el **Problema 
 - **Penalizaciones:** 0 horas (cumplimiento perfecto)
 - **Eficiencia:** 96% (tiempo de viaje / tiempo total)
 
+![Mapa de la Mejor Ruta](docs/assets/mapa_ruta_optima.png)
+
 ---
 
 ## 🗂️ Estructura del Proyecto
@@ -253,11 +255,16 @@ La ruta optimizada recorre **más distancia** (14,263 km vs 11,419 km) pero toma
 El sistema genera automáticamente:
 
 1. **Gráfica de convergencia** - Evolución del fitness
-2. **Comparación multi-run** - 10 ejecuciones superpuestas
-3. **Boxplot de resultados** - Distribución estadística
-4. **Mapa de ruta** - Visualización geográfica
+![Convergencia](docs/assets/grafica_convergencia.png)
 
-Todas las gráficas se guardan en `results/<directorio>/graficas/`
+2. **Comparación multi-run** - 10 ejecuciones superpuestas
+![Comparación Runs](docs/assets/grafica_comparativa.png)
+
+3. **Boxplot de resultados** - Distribución estadística
+![Distribución de Resultados](docs/assets/grafica_boxplot.png)
+
+4. **Mapa de ruta** - Visualización geográfica
+*(Ver sección de Resultados Obtenidos)*
 
 ---
 
